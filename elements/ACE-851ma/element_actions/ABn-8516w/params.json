@@ -1,0 +1,37 @@
+{
+    "caption": "Add Spot",
+    "fields": {
+        "ABo": {
+            "caption": "title",
+            "editor": "StaticText",
+            "name": "title",
+            "optional": true,
+            "rank": 0
+        },
+        "ABp": {
+            "caption": "element",
+            "doc": "element ID",
+            "editor": "StaticText",
+            "name": "element",
+            "optional": false,
+            "rank": 1
+        },
+        "ABq": {
+            "caption": "intro",
+            "doc": "what you want to note here",
+            "editor": "StaticText",
+            "name": "intro",
+            "optional": true,
+            "rank": 2
+        },
+        "ABr": {
+            "caption": "position",
+            "default_val": "top",
+            "editor": "Dropdown",
+            "name": "position",
+            "optional": true,
+            "options": "top,bottom,left,right",
+            "rank": 3
+        }
+    }
+}

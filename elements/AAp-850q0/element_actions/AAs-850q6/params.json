@@ -1,0 +1,29 @@
+{
+    "caption": "add a hint",
+    "fields": {
+        "AAt": {
+            "caption": "Element ID",
+            "doc": "ID of the element ",
+            "editor": "DynamicValue",
+            "name": "element_id",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAu": {
+            "caption": "What the hint should say",
+            "doc": "What do you want the hint to say",
+            "editor": "DynamicValue",
+            "name": "hint_text",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAv": {
+            "caption": "position",
+            "doc": "Where do you want the reminder to appear on the element?",
+            "editor": "Dropdown",
+            "name": "position",
+            "options": "top-right, top-left, top-middle, bottom-left, bottom-right, bottom-middle, middle-left, middle-right, middle-middle",
+            "rank": 2
+        }
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 50,
+        "width": 50
+    },
+    "display": "Tourz",
+    "events": {
+        "ABD": {
+            "caption": "User finishes tour",
+            "name": "user_finished_tour"
+        },
+        "ABF": {
+            "caption": "user leaves a tour early",
+            "name": "user_left_tour"
+        }
+    },
+    "fields": {
+        "AAz": {
+            "caption": "disableinteraction",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "disableinteraction",
+            "rank": 0
+        },
+        "ABA": {
+            "caption": "showprogress",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "showprogress",
+            "rank": 1
+        },
+        "ABB": {
+            "caption": "showsteps",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "showsteps",
+            "rank": 2
+        }
+    },
+    "icon": "ion-map",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": false
+    },
+    "states": {
+        "ABG": {
+            "caption": "currentStep",
+            "doc": "use this to control flow during a tour",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\nreturn 1\n\n}"
+            },
+            "name": "currentstep",
+            "value": "number"
+        }
+    }
+}

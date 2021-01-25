@@ -1,0 +1,12 @@
+{
+    "assets": {
+        "ABC": {
+            "name": "logo",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1611326870438x405328737956431200/Tourz%20%26%20Hintz.png"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": 2,
+        "use_jquery": true
+    }
+}

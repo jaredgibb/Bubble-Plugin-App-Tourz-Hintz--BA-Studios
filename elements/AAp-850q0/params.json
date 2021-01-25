@@ -1,0 +1,13 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 50,
+        "width": 50
+    },
+    "display": "Hintz",
+    "icon": "ion-ios-help-outline",
+    "property_applications": {
+        "MinWidth": true
+    }
+}

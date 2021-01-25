@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "customer support"
+    },
+    "demo_page": "https://jaredgibb.bubbleapps.io/",
+    "description": "A lightweight plugin allowing you to tour your users around your app. Improve your onboarding experience greatly. \n\nAfter they are done with the tour, you can leave helpful reminders around the app. Just in case!",
+    "image": "//s3.amazonaws.com/appforest_uf/f1611326113000x202421531816802560/Tourz%20%26%20Hintz.png",
+    "license": "private",
+    "link": "https://jaredgibb.dorik.io",
+    "name": "App Tourz & Hintz- BA Studios",
+    "plugin_instructions": "You can trigger these events at any time via workflows. However, you should be sure to load any desired Hintz or Tourz locations on the 'Page loaded' event. If they are added during any workflows, the tours will be longer than they should be. \n\n\n\nTourz Instructions:\n\n- Add the tour element to the page you wish to tour\n- Expose the ability to add an element ID via your apps settings page\n- Set each element you wish to highlight's elementID and don't forget it! \n- via the 'on screen load' workflow, you will add each element you wish to include in the tour (in order) with the Element Action 'Add spot'\n-For each desired element, you must include the elementId at a minimum (title and note are optional)\n-When you have added all desired elements, include the Element Action 'start tour'\n\nTourz exposes 2 workflow Events:\n'User finished tour' - use this to trigger other events only after a user has completed an entire tour. \n'user left tour early' - use this to trigger other events only if the user leaves the tour before viewing all elements.\n\n\nHintz Instructions:\n\n- Add the Hintz element to the page you wish to tour\n- Expose the ability to add an element ID via your apps settings page\n- Set each element you wish to highlight's elementID and don't forget it! \n- via the 'on screen load' workflow, you will add each element you wish to include in the tour with the Element Action 'Add spot'\n-For each desired element, you must include the elementId at a minimum (title and note are optional)\n-When you have added all desired elements, include the Element Action 'start tour'"
+}

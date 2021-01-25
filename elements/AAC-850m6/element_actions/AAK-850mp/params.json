@@ -1,0 +1,32 @@
+{
+    "caption": "start tour",
+    "fields": {
+        "ABJ": {
+            "caption": "Show steps",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "show_steps",
+            "rank": 0
+        },
+        "ABK": {
+            "caption": "Show Progress",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "show_progress",
+            "rank": 1
+        },
+        "ABL": {
+            "caption": "Disable Interaction",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "disable_interaction",
+            "rank": 2
+        },
+        "ABO": {
+            "caption": "alert text",
+            "editor": "StaticText",
+            "name": "alert_text",
+            "rank": 3
+        }
+    }
+}
